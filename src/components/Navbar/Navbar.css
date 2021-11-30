@@ -3,7 +3,5 @@
     
 }
 .nav-bottom-border{
-    border-bottom: .1rem  solid hsla(0,0%,100%,.26666666666666666);
-    border-left: .1rem  solid hsla(0,0%,100%,.26666666666666666);
-    border-right: .1rem  solid hsla(0,0%,100%,.26666666666666666);
+    border-bottom: .1rem solid hsla(0,0%,100%,.26666666666666666);
 }

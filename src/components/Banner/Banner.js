@@ -15,16 +15,16 @@ const Banner = () => {
                                 <h1>I'M <span>MD HOSSEN</span></h1>
                                 <h3>Front-End Developer</h3>
 
-                                <div className="social-icon">
+                                <div className="social-icon mt-4">
                                     <ul>
                                         <li>
-                                            <a href="https://www.facebook.com/hossen.mahmud.332"> <i className="fab fa-facebook-f"></i></a>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/hossen.mahmud.332"> <i className="fab fa-facebook-f"></i></a>
                                         </li>
                                         <li>
-                                            <a href="https://www.facebook.com/hossen.mahmud.332"> <i className="fab fa-linkedin-in"></i></a>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/hossen.mahmud.332"> <i className="fab fa-linkedin-in"></i></a>
                                         </li>
                                         <li>
-                                            <a href="https://www.facebook.com/hossen.mahmud.332"> <i className="fab fa-github"></i></a>
+                                            <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/hossen.mahmud.332"> <i className="fab fa-github"></i></a>
                                         </li>
                                     </ul>
                                 </div>

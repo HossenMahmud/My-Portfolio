@@ -14,6 +14,12 @@ const Navbar = () => {
                         <div className="collapse navbar-collapse" id="navbarNavDropdown">
                             <ul className="navbar-nav ms-auto">
                                 <li className="nav-item">
+                                    <a className="nav-link text-white" aria-current="page" href="#about">About Me</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link text-white" aria-current="page" href="#portfolio">Portfolio</a>
+                                </li>
+                                <li className="nav-item">
                                     <a className="nav-link text-white" aria-current="page" href="https://drive.google.com/file/d/1K-GPUrDCrsmhzCggZrOGLWV4jyd7Saik/view?usp=sharing">Download Resume</a>
                                 </li>
                             </ul>

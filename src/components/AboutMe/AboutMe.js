@@ -9,7 +9,7 @@ import aboutIcon4 from '../../images/about-icon4.png';
 
 const AboutMe = () => {
     return (
-        <div className='aboutMe-bg'>
+        <div id='about' className='aboutMe-bg'>
             <div className="container">
                 <div className="section-title">
                     <h1>About <span>Me</span> </h1>
@@ -33,18 +33,18 @@ const AboutMe = () => {
                                 </div>
                                 <div className="col-lg-6">
                                     <div className="personal-info">
-                                        <p><span>Degree: </span>CSE</p>
+                                        <p><span>Degree: </span>Computer Science & Engineering (CSE)</p>
                                         <p><span>Mail: </span>hossenmahmud15@gmail.com</p>
                                         <div className="social-icon">
                                             <ul>
                                                 <li>
-                                                    <a href="https://www.facebook.com/hossen.mahmud.332"> <i className="fab fa-facebook-f"></i></a>
+                                                    <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/hossen.mahmud.332"> <i className="fab fa-facebook-f"></i></a>
                                                 </li>
                                                 <li>
-                                                    <a href="https://www.facebook.com/hossen.mahmud.332"> <i className="fab fa-linkedin-in"></i></a>
+                                                    <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/hossen.mahmud.332"> <i className="fab fa-linkedin-in"></i></a>
                                                 </li>
                                                 <li>
-                                                    <a href="https://www.facebook.com/hossen.mahmud.332"> <i className="fab fa-github"></i></a>
+                                                    <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/hossen.mahmud.332"> <i className="fab fa-github"></i></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -69,28 +69,28 @@ const AboutMe = () => {
                 <div className="container">
                     <div className="row text-white">
                         <div className="col-lg-3 col-md-6">
-                            <div class="single-counter">
+                            <div className="single-counter">
                                 <img src={aboutIcon1} alt="" />
                                 <h1 style={{ fontSize: '50px' }} className='fw-bold'>15+</h1>
                                 <p style={{ fontSize: '18px' }}>Project Done</p>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6">
-                            <div class="single-counter">
+                            <div className="single-counter">
                                 <img src={aboutIcon2} alt="" />
                                 <h1 style={{ fontSize: '50px' }} className='fw-bold'>5+</h1>
                                 <p style={{ fontSize: '18px' }}>Happy Users</p>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6">
-                            <div class="single-counter">
+                            <div className="single-counter">
                                 <img src={aboutIcon3} alt="" />
                                 <h1 style={{ fontSize: '50px' }} className='fw-bold'>10+</h1>
                                 <p style={{ fontSize: '18px' }}>Great Reviews</p>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6">
-                            <div class="single-counter">
+                            <div className="single-counter">
                                 <img src={aboutIcon4} alt="" />
                                 <h1 style={{ fontSize: '50px' }} className='fw-bold'>20+</h1>
                                 <p style={{ fontSize: '18px' }}>Support Team</p>
