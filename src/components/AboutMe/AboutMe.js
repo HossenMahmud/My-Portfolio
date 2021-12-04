@@ -1,6 +1,6 @@
 import React from 'react';
 import './AboutMe.css';
-import aboutPhoto from '../../images/about.jpg';
+import aboutPhoto from '../../images/about.png';
 import aboutIcon1 from '../../images/about-icon1.png';
 import aboutIcon2 from '../../images/about-icon2.png';
 import aboutIcon3 from '../../images/about-icon3.png';
